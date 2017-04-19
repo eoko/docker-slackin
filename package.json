@@ -1,0 +1,24 @@
+{
+  "name": "eoko-slackin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eoko/docker-slackin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eoko/docker-slackin/issues"
+  },
+  "homepage": "https://github.com/eoko/docker-slackin#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "slackin": "^0.13.0"
+  }
+}

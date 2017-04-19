@@ -1,0 +1,19 @@
+{
+  "apps": [
+    {
+      "name": "slackin",
+      "script": "./index.js",
+      "merge_logs": true,
+      "error_file"      : "var/logs/err.log",
+      "out_file"        : "var/logs/out.log",
+      "log_date_format" : "YYYY-MM-DD HH:mm Z",
+      "max_restarts": 20,
+      "instances": 1,
+      "max_memory_restart": "80M",
+      "env": {
+        "PORT": 3000,
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
